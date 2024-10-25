@@ -1,0 +1,213 @@
+
+.Container {
+    min-width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    background-image: url('/img/khonggian.gif'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+
+
+body {
+    position: relative;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    
+    padding: 0;
+    /* transition: opacity 10s ease-in-out; */
+    --animate-duration: 3s;
+}
+
+.ListDiv>div{
+    height: 100vh;
+    width: 100%;
+
+    justify-content: space-between;
+    align-items: center;
+
+    display: none;
+    opacity: 0;
+}
+
+.ListDiv>div.hien{
+
+    opacity: 1;
+    display: flex;
+    
+}
+
+
+.ListDiv>div .Trai{
+    text-align: center;
+    width: 100%;
+    
+
+    
+}
+.ListDiv{
+    width: 100%;
+    height: 100vh;
+   
+}
+
+#BinhThuong{
+    font-size: 50px;
+    font-weight: 100 ;
+}
+
+#To{
+    font-size: 100px;
+}
+#Nho{
+    font-size: 30px;
+}
+
+.Div1 p{
+    margin: 10px 0;
+}
+
+.Div1 hr{
+    width: 400px;
+    margin: auto;
+}
+
+.Div1 .Phai img{
+    width: 32vw;
+    height: auto; /* Đảm bảo giữ tỷ lệ */
+    object-fit: cover; /* Hoặc 'contain' nếu bạn muốn hình ảnh vừa vặn */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  
+   
+}
+
+
+.Div2 .Phai img{
+    width: 30vw;
+    height: auto; 
+    object-fit: cover; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.Div2 .Phai {
+    position: relative;
+   align-items: center;
+   padding-left: 200px;
+   
+}
+
+.Div2 .Trai {
+    width: 10vw;
+    padding: 100px;
+    z-index: 2;
+   
+}
+
+.Div3 .Trai {
+    width: 10vw;
+    padding: 100px;
+    margin-right: 280px; 
+   
+}
+
+
+.Div3 .Phai img{
+    width: 40vw;
+    height: auto; 
+    object-fit: cover; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+.Div3 .Phai {
+    margin-left: 200px;
+
+    
+}
+.word {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(30px);
+    transition: opacity 0.5s ease-in-out, filter 1.5s ease-in-out; /* Transition for both opacity and filter */
+    text-shadow: 0 0 30px rgb(255, 255, 255)
+}
+
+.word.show {
+    opacity: 1;
+    filter: blur(0px); /* Change blur to 0px when the word is shown */
+}
+
+.Div_Custom .Phai{
+    padding-right: 100px;
+}
+
+.Div_Custom .Phai img{
+    width: 40vw;
+    height: auto; 
+    object-fit: cover; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Div_Custom .Trai {
+    padding: 200px;
+    
+}
+
+.Div_Custom_trai .Phai img{
+    width: 40vw;
+    height: auto; 
+    object-fit: cover; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Div_Custom_trai .Phai{
+    padding-left: 100px;
+}
+
+
+
+.Div_Custom_trai .Trai{
+    padding: 200px;
+}
+
+.Div_Custom_Giua .Phai img {
+    width: 60vw;
+}
+
+.Div_Custom_Giua {
+
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center;     /* Căn giữa theo chiều dọc */
+    height: 100vh; 
+    max-width: 60vw;
+    margin: auto;          /* Chiều cao bằng chiều cao của màn hình */
+}
+
+.Div_Custom_Giua .Phai {
+    width: 60vw;
+    margin: auto;
+    /* Thêm các kiểu khác nếu cần */
+}
