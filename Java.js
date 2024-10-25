@@ -91,4 +91,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-document.getElementById("myAudio").muted = false;
+window.onload = function() {
+    var audio = document.getElementById("myAudio");
+    audio.play();
+}
