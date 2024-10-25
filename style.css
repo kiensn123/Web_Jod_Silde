@@ -202,7 +202,7 @@ body {
     justify-content: center; /* Căn giữa theo chiều ngang */
     align-items: center;     /* Căn giữa theo chiều dọc */
     height: 100vh; 
-    max-width: 60vw;
+    
     margin: auto;          /* Chiều cao bằng chiều cao của màn hình */
 }
 
@@ -210,4 +210,8 @@ body {
     width: 60vw;
     margin: auto;
     /* Thêm các kiểu khác nếu cần */
+}
+
+.Nen_den{
+    background-color: black;
 }
